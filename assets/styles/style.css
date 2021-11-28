@@ -1,259 +1,277 @@
-.logo{
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
   width: 133px;
   height: 86px;
 }
 
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+
 li {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000;
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
-  }
+  list-style: none;
+}
 
-  header{
-    display: flex;
-    justify-content:center;
-    padding: 20px;
-    align-items: center;
-  }
-  
-  .nav-menu {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .menu {
-    display: flex;
-  }
-  
-  .menu li {
-    margin-left: 10px;
-  }
-  
-  .menu li a {
-    display: block;
-    padding: 10px;
-  }
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+}
 
-  .efeito{
-    text-align: center;
-    font-style: italic;
-  }
-  
-  .texto{
-      text-align: left;
-      margin-left: 150px;
-  }
+.texto {
+  text-align: left;
+  margin-left: 150px;
+}
 
-  
-  #texto {
-   font-size: 40px;
-   font-family: 'Montserrat';
- 
-  }
-  
-  #sub_texto{
-      margin-top: -55px;
-      color: #d3d3d3;
-      font-size: 40px;
-      font-family: 'Montserrat';
-     
-  }
-  .acolhimento {
-    
-    border: 1px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
-    width: 1000px;
-    height: 362px;
-    margin: 20px auto;
-    display: grid;
-    align-items: center;
-    margin-top: 50px;
-    text-align: center; 
-  }
+#texto {
+  color: #2f3b90;
+  font-size: 40px;
+  font-family: "Montserrat";
+}
 
-  .foto-frente {
-    grid-row: 2;
-    grid-column: 1 / span 8;
-    margin-top: -390px;
-    margin-left: -750px;
-    padding-bottom: 10%;
-    z-index: 1;
-    }
+#sub_texto {
+  margin-top: -55px;
+  color:#E4007D;
+  font-size: 40px;
+  font-family: "Montserrat";
+}
 
-  .foto-fundo {
-     grid-column: 5 / -5;  
-    grid-row: 1;
-       
-  }
-     
-  .texto_acolhimento{
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 24px;
-  }
+.button-banner{
+  width: 137px;
+  height: 27px;
+  background-color:#000;
+  font-size: 16px;
+  font-family: "Montserrat";
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #F5F5F5;
   
-  
-  
-  #oportunidades {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Montserrat';
-    margin-top: 90px;
-  }
-  
-  .pes_input {
-    margin: auto;
-    text-align: center;
-  }
-  .pesquisa {
-    width: 856px;
-    height: 40px;
-    border: none;
-    border-bottom: solid 1px  #00000099;
-  
-  }
-  
-  .botao_pesquisa {
-    border: none;
-  }
-  
-  .cards{
-      display:flex;
-      justify-content: center;
-      margin-top: 50px;
-        
-  }
-  
-  .texto_card{
-    text-align: justify;
-    margin-left: 50px;
-  }
-  
-  .titulo{
-      font-size: 24px;
-      font-family: 'Ubuntu';
-  }
-  
-  .onde{
-      font-size: 16px;
-      font-family: 'Ubuntu';
-      color: #00000099;
-  
-  }
-  
-  .localizacao{
-      font-size: 16px;
-      font-family: 'Ubuntu';
-      color:  #d3d3d3;
-  }
-  
-  .tempo{
-      font-size: 16px;
-      font-family: 'Ubuntu';
-      color:  #e4dede;
-  }
-  
-  .faca_login{
-      text-align: center;
-      font-size: 16px;
-      font-family: 'Ubuntu';
-      color:  #00000099;
-      margin-top: 20px;
-  }
-  
-  .parceiros{
-      text-align: center;
-      font-size: 32px;
-      font-family: 'Montserrat';
-      margin-top: 100px;
-     
-  }
- 
-  .parceria-parte{
-    justify-content: center;
-    text-align: center;
-    font-size: 32px; 
- 
-  }
 
-  .parceria{
-    justify-content: center;
-    text-align: center;
-    padding: 5px;
-    font-family: 'Montserrat';
-  }
+}
 
-  .parceria-email{
-    margin-top: 10px;
-    width: 856px;
-    border-bottom: solid 1px  #00000099;
-    border-radius: 5px;
-  }
+.acolhimento {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  width: 1000px;
+  height: 362px;
+  margin: 20px auto;
+  display: grid;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
 
-  .parceria-button{
-     background: #0B0A0A;
-     width: 70px;
-     height: 20px;
-border-radius:16px;
-color: white;
-font-family: 'Montserrat';
+.foto-frente {
+  grid-row: 2;
+  grid-column: 1 / span 8;
+  margin-top: -390px;
+  margin-left: -750px;
+  padding-bottom: 10%;
+  z-index: 1;
+}
 
-  }
+.foto-fundo {
+  grid-column: 5 / -5;
+  grid-row: 1;
+}
 
-  .cadastro{
-    text-align: center;
-    padding: 5px;
-   
-  }
-  .parte{
-    font-size: 24px;
-    font-family: 'Montserrat';
-    display:inline-flex;
-    justify-content: space-between;
-        
-  }
+.texto_acolhimento {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
 
-  .form{
-    display: grid;
-    justify-content: center;
-    
-  }
+#oportunidades {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Montserrat";
+  margin-top: 90px;
+}
 
-  .label-form{
-    font-family: 'Ubuntu';
-    font-size: 24px;
-    padding: 10px;
-  }
+.pes_input {
+  margin: auto;
+  text-align: center;
+}
 
-  .input-label{
-    font-size: 24px;
-    padding: 5px;
-    width: 620px;
-    height: 80px;
-    border-radius: 20px;
-    border:#828282 solid 1px ;
-  }
+.pesquisa {
+  width: 856px;
+  height: 40px;
+  border: none;
+  border-bottom: solid 1px #00000099;
+}
 
-.button{
+.botao_pesquisa {
+  border: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.texto_card {
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.titulo {
+  font-size: 24px;
+  font-family: "Ubuntu";
+}
+
+.onde {
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: #00000099;
+}
+
+.localizacao {
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: #d3d3d3;
+}
+
+.tempo {
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: #e4dede;
+}
+
+.faca_login {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: #00000099;
+  margin-top: 20px;
+}
+
+.parceiros {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Montserrat";
+  margin-top: 100px;
+}
+
+.parceria-parte {
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.parceria {
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  font-family: "Montserrat";
+}
+
+.carrousel {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.parceria-email {
+  margin-top: 10px;
+  width: 856px;
+  border-bottom: solid 1px #00000099;
+  border-radius: 5px;
+}
+
+.parceria-button {
+  background: #0b0a0a;
+  width: 70px;
+  height: 20px;
+  border-radius: 16px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.cadastro {
+  text-align: center;
+  padding: 5px;
+}
+.parte {
+  font-size: 24px;
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+}
+
+.parte p {
+  margin-left: 50px;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+}
+
+.label-form {
+  font-family: "Ubuntu";
+  font-size: 24px;
+  padding: 10px;
+}
+
+.input-label {
+  font-size: 24px;
+  padding: 5px;
+  width: 620px;
+  height: 80px;
+  border-radius: 20px;
+  border: #828282 solid 1px;
+}
+
+.button {
   margin-top: 20px;
   text-align: center;
 }
 
-  .button-form{
-  
-    width: 176px;
-    height: 56px;
-    background-color: #0b0a0a;
-    color:#fff;
-    border-radius: 20px;
-    font-size: 24px;
-    font-family: 'Ubuntu';
+.button-form {
+  width: 176px;
+  height: 56px;
+  background-color: #0b0a0a;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 24px;
+  font-family: "Ubuntu";
+}
 
-  }
+.termo{
+  font-family: 'Ubuntu';
+  font-size: 12px;
+ }
 
- 
+ .a-termo{
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color:#2f3b90;
+ }
