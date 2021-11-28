@@ -27,36 +27,35 @@
       </ul>
     </nav>
   </header>
-  
-  <form class="form">
-    <label class="label-form">Empresa</label>
-    <input class="input-label" type="text">
+
+  <form  method="post" class="form" action="">
+    <label class="label-form" for="nome">Empresa</label>
+    <input class="input-label" id="nome" type="text" required name="nome" >
+
+    <label class="label-form" for="email">E-mail de contato</label>
+    <input class="input-label" id="email" type="email" required name="email">
     
-    <label class="label-form">E-mail de contato</label>
-    <input class="input-label" type="email">
+    <label class="label-form" for="telefone">Tel/Whatsapp</label>
+    <input class="input-label" id="telefone" type="tel" required name="telefone">
 
-    <label class="label-form">Tel/Whatsapp</label>
-    <input class="input-label" type="tel">
-    
-    <label class="label-form">CNPJ</label>
-    <input class="input-label" type="number">
+    <label class="label-form" for="cnpj">CNPJ</label>
+    <input class="input-label" id="cnpj" type="number" required name="cnpj">
 
-    <label class="label-form">Área de atuação</label>
-    <input class="input-label" type="text">
-   
+    <label class="label-form" for="atuacao">Área de atuação</label>
+    <input class="input-label" id="atuacao" type="text" required name="atuacao">
 
-    <label class="label-form">Salário</label>
-    <input class="input-label" type="text">
+    <label class="label-form" for="salario">Salário</label>
+    <input class="input-label" id="salario" type="text" required name="signal_cellular_no_sim">
         
+    <div class="button">
+      <input class="button-form" type="submit" value="Enviar">
+      </div>
+
   </form>
-
-  <div class="button">
-  <button class="button-form">Enviar</button>
-</div>
-
-<input type="checkbox">
-  <label class="termo" >Li e aceito as <a class="a-termo" href=""> Condições Legais</a> e a <a class="a-termo" href="">Politica de privacidade</a> do Pride</label>
   
 
+  <input type="checkbox" required>
+  <label class="termo" >Li e aceito as <a class="a-termo" href=""> Condições Legais</a> e a <a class="a-termo" href="">Politica de privacidade</a> do Pride</label>
+ 
 </body>
 </html>

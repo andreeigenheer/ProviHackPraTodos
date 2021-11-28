@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
- 
+
 
   <title>index</title>
 </head>
@@ -27,34 +27,38 @@
       </ul>
     </nav>
   </header>
-  
-  <form class="form">
-    <label class="label-form">Nome Social</label>
-    <input class="input-label" type="text">
-    
+
+  <form method="post" class="form" action="">
+    <label class="label-form" for="nome">Nome Social</label>
+    <input class="input-label" id="nome" type="text" required name="nome">
+
     <label class="label-form">E-mail de contato</label>
-    <input class="input-label" type="email">
-    
-    <label class="label-form">Educação</label>
-    <input class="input-label" type="text">
+    <input class="input-label" type="email" required>
 
-    <label class="label-form">Interesses</label>
-    <input class="input-label" type="text">
+    <label class="label-form" for="email">Educação</label>
+    <input class="input-label" id="email" type="text" required name="email">
 
-    <label class="label-form">Tel/Whatsapp</label>
-    <input class="input-label" type="tel">
+    <label class="label-form" for="interesses">Interesses</label>
+    <input class="input-label" id="interesses" type="text" required name="interesses">
 
-    <label class="label-form">Skills</label>
-    <input class="input-label" type="text">
-        
+    <label class="label-form" for="telefone">Tel/Whatsapp</label>
+    <input class="input-label" id="telefone" type="tel" required name="telefone">
+
+    <label class="label-form" for="skills">Skills</label>
+    <input class="input-label" id="skills" type="text" required name="skills">
+
+    <div class="button">
+      <input class="button-form" type="submit" value="Enviar">
+    </div>
+
   </form>
-  <div class="button">
-  <button class="button-form">Enviar</button>
-  </div>
 
-  <input type="checkbox">
-  <label class="termo" >Li e aceito as <a class="a-termo" href=""> Condições Legais</a> e a <a class="a-termo" href="">Politica de privacidade</a> do Pride</label>
-  
+
+  <input type="checkbox" required>
+  <label class="termo">Li e aceito as <a class="a-termo" href=""> Condições Legais</a> e a <a class="a-termo"
+      href="">Politica de privacidade</a> do Pride</label>
+
 
 </body>
+
 </html>

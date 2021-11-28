@@ -39,37 +39,6 @@ a {
   font-family: "Ubuntu", sans-serif;
 }
 
-.texto {
-  text-align: left;
-  margin-left: 150px;
-}
-
-#texto {
-  color: #2f3b90;
-  font-size: 40px;
-  font-family: "Montserrat";
-}
-
-#sub_texto {
-  margin-top: -55px;
-  color:#E4007D;
-  font-size: 40px;
-  font-family: "Montserrat";
-}
-
-.button-banner{
-  width: 137px;
-  height: 27px;
-  background-color:#000;
-  font-size: 16px;
-  font-family: "Montserrat";
-  border-radius: 20px;
-  margin-top: 10px;
-  color: #F5F5F5;
-  
-
-}
-
 .acolhimento {
   border: 1px solid transparent;
   border-image: linear-gradient(
@@ -90,6 +59,40 @@ a {
   text-align: center;
 }
 
+.texto {
+  text-align: left;
+  margin-left: 150px;
+}
+
+#texto {
+  color: #2f3b90;
+  font-size: 40px;
+  font-family: "Montserrat";
+}
+
+#sub_texto {
+  margin-top: -55px;
+  color: #e4007d;
+  font-size: 40px;
+  font-family: "Montserrat";
+}
+
+.texto_acolhimento {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+.button-banner {
+  width: 137px;
+  height: 27px;
+  background-color: #000;
+  font-size: 16px;
+  font-family: "Montserrat";
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #f5f5f5;
+}
+
 .foto-frente {
   grid-row: 2;
   grid-column: 1 / span 8;
@@ -102,11 +105,6 @@ a {
 .foto-fundo {
   grid-column: 5 / -5;
   grid-row: 1;
-}
-
-.texto_acolhimento {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 24px;
 }
 
 #oportunidades {
@@ -181,44 +179,15 @@ a {
   margin-top: 100px;
 }
 
-.parceria-parte {
-  justify-content: center;
-  text-align: center;
-  font-size: 32px;
-}
-
-.parceria {
-  justify-content: center;
-  text-align: center;
-  padding: 5px;
-  font-family: "Montserrat";
-}
-
 .carrousel {
   width: 800px;
   margin: 0 auto;
 }
-
-.parceria-email {
-  margin-top: 10px;
-  width: 856px;
-  border-bottom: solid 1px #00000099;
-  border-radius: 5px;
-}
-
-.parceria-button {
-  background: #0b0a0a;
-  width: 70px;
-  height: 20px;
-  border-radius: 16px;
-  color: white;
-  font-family: "Montserrat";
-}
-
 .cadastro {
   text-align: center;
   padding: 5px;
 }
+
 .parte {
   font-size: 24px;
   font-family: "Montserrat";
@@ -229,6 +198,8 @@ a {
 .parte p {
   margin-left: 50px;
 }
+
+/* Estilização formulários */
 
 .form {
   display: grid;
@@ -265,13 +236,13 @@ a {
   font-family: "Ubuntu";
 }
 
-.termo{
-  font-family: 'Ubuntu';
+.termo {
+  font-family: "Ubuntu";
   font-size: 12px;
- }
+}
 
- .a-termo{
-  font-family: 'Ubuntu';
+.a-termo {
+  font-family: "Ubuntu";
   font-size: 14px;
-  color:#2f3b90;
- }
+  color: #2f3b90;
+}
