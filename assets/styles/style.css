@@ -1,3 +1,8 @@
+.logo{
+  width: 133px;
+  height: 86px;
+}
+
 li {
     list-style: none;
   }
@@ -7,6 +12,13 @@ li {
     color: #000;
     font-size: 24px;
     font-family: 'Ubuntu', sans-serif;
+  }
+
+  header{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    align-items: center;
   }
   
   .nav-menu {
@@ -26,6 +38,11 @@ li {
     display: block;
     padding: 10px;
   }
+
+  .efeito{
+    text-align: center;
+    font-style: italic;
+  }
   
   .texto{
       text-align: left;
@@ -36,6 +53,7 @@ li {
   #texto {
    font-size: 40px;
    font-family: 'Montserrat';
+ 
   }
   
   #sub_texto{
@@ -54,7 +72,6 @@ li {
     height: 362px;
     margin: 20px auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin-top: 50px;
     text-align: center; 
@@ -64,7 +81,7 @@ li {
     grid-row: 2;
     grid-column: 1 / span 8;
     margin-top: -390px;
-    margin-left: -550px;
+    margin-left: -750px;
     padding-bottom: 10%;
     z-index: 1;
     }
@@ -74,11 +91,10 @@ li {
     grid-row: 1;
        
   }
-  
-   
+     
   .texto_acolhimento{
       font-family: 'Ubuntu', sans-serif;
-      font-size: 12px;
+      font-size: 24px;
   }
   
   
@@ -157,41 +173,50 @@ li {
       margin-top: 100px;
      
   }
-  
-  .faca-parte, .parte-empresa{
-      font-size: 40px ;
-      font-family: 'Montserrat';
+ 
+  .parceria-parte{
+    justify-content: center;
+    text-align: center;
+    font-size: 32px; 
+ 
   }
-  
-  .parte-candidato{
-      font-size: 40px ;
-      font-family: 'Montserrat';
+
+  .parceria{
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat';
   }
-  
-  .label-form{
-      font-family:'Ubuntu' ;
-      font-size: 24px;
+
+  .parceria-email{
+    margin-top: 10px;
+    width: 856px;
+    border-bottom: solid 1px  #00000099;
+    border-radius: 5px;
   }
-  
-  .radio-form{
-      font-family:'Ubuntu' ;
-      font-size: 24px;
-      color: gray;
+
+  .parceria-button{
+     background: #0B0A0A;
+     width: 70px;
+     height: 20px;
+border-radius:16px;
+color: white;
+font-family: 'Montserrat';
+
   }
-  
-  .input-form{
-      width: 620px;
-      height: 80px;
-      border-radius: 20px;
-      color: gray;
+
+
+  .cadastro{
+    text-align: center;
+    padding: 5px;
+   
   }
-  
-  .button-form{
-     width: 176px;
-     height: 56px; 
-     border-radius: 15px;
-   font-family:'Ubuntu' ;
-   font-size: 24px;
-  color: white;
-  background-color: black;
+  .parte{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    display:inline-flex;
+    justify-content: space-between;
+        
   }
+
+ 

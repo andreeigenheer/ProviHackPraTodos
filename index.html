@@ -10,42 +10,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./assets/scripts/slick-1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./assets/scripts/slick-1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/scripts/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/scripts/slick-1.8.1/slick/slick-theme.css" />
 
   <title>index</title>
 </head>
 
 <body>
+  <header>
+    <img class="logo" src="./assets/img/logo.jpeg">
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Quem Somos</a></li>
+        <li><a href="">Empresas</a></li>
+        <li><a href="">Login</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <nav class="nav-menu">
-    <ul class="menu">
-      <li><a href="">Home</a></li>
-      <li><a href="">Quem Somos</a></li>
-      <li><a href="">Empresas</a></li>
-      <li><a href="">Login</a></li>
-    </ul>
-  </nav>
+  <h1 class="efeito">Frase de efeito</h1>
 
   <section>
     <div class="acolhimento">
       <div class="texto">
-        <h1 id="texto">Acolhemos</h1>
-        <h1 id="sub_texto">sua causa</h1>
+        <h1 id="texto">JOBS QUE</h1>
+        <br>
+        <h1 id="sub_texto">APOIAM SUA CAUSA</h1>
 
-        <p class="texto_acolhimento">Entre e sinta-se a vontade para ser quem é!
-          <br>
-          Aqui reunimos oportunidades de empresas que entendem o poder da diversidade.
+        <p class="texto_acolhimento">Conexão entre empresas que entendem o poder da diversidade.
+
         </p>
       </div>
       <div class="foto-frente">
-      <img  src="./assets/img/cabelo_azul.png">
+        <img src="./assets/img/cabelo_azul.png">
       </div>
 
       <div class="foto-fundo">
-        <img  src="./assets/img/cabelo_azul.png">
-        </div>
-      
+        <img src="./assets/img/cabelo_azul.png">
+      </div>
+
     </div>
   </section>
 
@@ -108,49 +112,25 @@
     <div><img src="assets/img/parceiro_10.png"></div>
   </div>
 
-  <div class="parte">
-    <p class="faca-parte"> Faça Parte !</p>
-    <a class="parte-candidato" href="">Candidato</a>
-    <a class="parte-empresa" href="">Empresa</a>
-  </div>
+  <section class="parceria">
+    <div class="parceria-parte">
+      Faça parte dessa parceria!
+    </div>
+    <input class="parceria-email" type="email" required placeholder="deixe seu e-mail">
+    <button class="parceria-button" type="submit">Enviar</button>
+  </section>
 
-  <form>
+  <section class="cadastro">
+    <div class="parte">
+      <p><a class="faca-parte" href=""> Jobs!</a></p> 
+      <p><a class="parte-candidato" href="">Candidato</a></p>
+      <br>
+      <p> <a class="parte-empresa" href="">Empresa</a></p>
+      
+    </div>
 
-    <label class="label-form" >Nome Social</label>
-    <input class="input-form" type="text" required>
-
-    <label class="label-form">Data de nascimento</label>
-    <input class="input-form" type="date" required>
-
-    <label class="label-form">Identidade de gênero</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Mulher cisgênero</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Mulher transgênero</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Homem cisgênero</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Homem transgênero</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Não-binário</label>
-
-    <input class="radio-form" required type="radio">
-    <label class="radio-form">Ocultar</label>
-
-
-    <label class="label-form">Documento Oficial (RG/CPF/RNE)</label>
-    <input class="input-form" type="text" required>
-
-    <button class="button-form"type="submit">Próximo</button>
-
-
-  </form>
-
+    
+  </section>
 
 </body>
 
