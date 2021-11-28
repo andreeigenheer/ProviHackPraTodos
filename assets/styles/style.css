@@ -46,17 +46,36 @@ li {
      
   }
   .acolhimento {
+    
+    border: 1px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    width: 1000px;
+    height: 362px;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin: auto;
-    width: 1000px;
-    height: 362px;
-    border: solid 1px black;
     margin-top: 50px;
-    text-align: center;
+    text-align: center; 
+  }
+
+  .foto-frente {
+    grid-row: 2;
+    grid-column: 1 / span 8;
+    margin-top: -390px;
+    margin-left: -550px;
+    padding-bottom: 10%;
+    z-index: 1;
+    }
+
+  .foto-fundo {
+     grid-column: 5 / -5;  
+    grid-row: 1;
+       
   }
   
+   
   .texto_acolhimento{
       font-family: 'Ubuntu', sans-serif;
       font-size: 12px;
