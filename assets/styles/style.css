@@ -205,7 +205,6 @@ font-family: 'Montserrat';
 
   }
 
-
   .cadastro{
     text-align: center;
     padding: 5px;
@@ -217,6 +216,39 @@ font-family: 'Montserrat';
     display:inline-flex;
     justify-content: space-between;
         
+  }
+
+  .form{
+    display: grid;
+    justify-content: center;
+    
+  }
+
+  .label-form{
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .input-label{
+    font-size: 24px;
+    padding: 5px;
+    width: 620px;
+    height: 80px;
+    border-radius: 20px;
+    border:#828282 solid 1px ;
+  }
+
+  .button-form{
+   
+    width: 176px;
+    height: 56px;
+    background-color: #0b0a0a;
+    color:#fff;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'Ubuntu';
+
   }
 
  
