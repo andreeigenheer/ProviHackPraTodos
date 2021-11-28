@@ -239,8 +239,13 @@ font-family: 'Montserrat';
     border:#828282 solid 1px ;
   }
 
+.button{
+  margin-top: 20px;
+  text-align: center;
+}
+
   .button-form{
-   
+  
     width: 176px;
     height: 56px;
     background-color: #0b0a0a;
